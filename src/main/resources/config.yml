@@ -1,0 +1,10 @@
+# StonePowers configuration
+start-hearts: 10
+max-hearts: 20
+min-hearts: 1
+killer-heart-gain: 1
+victim-heart-loss: 1
+
+cooldowns:
+  ability-1: 12
+  ability-2: 25

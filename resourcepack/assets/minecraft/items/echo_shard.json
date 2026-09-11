@@ -1,0 +1,69 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": 1,
+        "model": {
+          "type": "minecraft:model",
+          "model": "stonepowers:item/fire_stone"
+        }
+      },
+      {
+        "when": 2,
+        "model": {
+          "type": "minecraft:model",
+          "model": "stonepowers:item/ice_stone"
+        }
+      },
+      {
+        "when": 3,
+        "model": {
+          "type": "minecraft:model",
+          "model": "stonepowers:item/ender_stone"
+        }
+      },
+      {
+        "when": 4,
+        "model": {
+          "type": "minecraft:model",
+          "model": "stonepowers:item/lightning_stone"
+        }
+      },
+      {
+        "when": 5,
+        "model": {
+          "type": "minecraft:model",
+          "model": "stonepowers:item/water_stone"
+        }
+      },
+      {
+        "when": 6,
+        "model": {
+          "type": "minecraft:model",
+          "model": "stonepowers:item/earth_stone"
+        }
+      },
+      {
+        "when": 7,
+        "model": {
+          "type": "minecraft:model",
+          "model": "stonepowers:item/wind_stone"
+        }
+      },
+      {
+        "when": 8,
+        "model": {
+          "type": "minecraft:model",
+          "model": "stonepowers:item/wither_stone"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/echo_shard"
+    }
+  }
+}

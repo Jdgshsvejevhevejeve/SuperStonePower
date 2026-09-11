@@ -1,0 +1,16 @@
+name: StonePowers
+version: 1.0.0
+main: me.bogeyman.stonepowers.Main
+api-version: '1.21'
+author: Bogeyman Verse
+description: Eight elemental stone powers with permanent hearts and stone transfers.
+commands:
+  stone:
+    description: StonePowers command
+    usage: /stone <hearts|sethearts|resethearts|give|giveall|reroll|reload>
+    aliases: [stones]
+    permission: stonepowers.admin
+permissions:
+  stonepowers.admin:
+    description: Access to StonePowers admin commands.
+    default: op
