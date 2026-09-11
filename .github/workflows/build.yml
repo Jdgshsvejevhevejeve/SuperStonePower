@@ -1,5 +1,4 @@
 name: Build StonePowers SMP
-
 on:
   push:
     branches:
